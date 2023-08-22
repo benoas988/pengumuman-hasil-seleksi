@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+    
+            <nav>
+                <ul>
+                    <li><a href="#"><span>Rasena EV</span> Team UNAIR</a></li>
+                </ul>
+            </nav>
+            <div class="judul">
+                <h1>Pengumuman <span>Lolos</span> ke Tahap Magang</h1>
+                <h2>Silakan Masukkan NIM untuk Melihat Hasil Seleksi!</h2>
+                <form>
+
+                    <label for="search" id="nim">NIM :</label>
+                    <input type="search" id="search" name="search">
+                    <input type="button" id="tombol" value="Cek Hasil" onclick="showInput()">
+
+                </form>
+
+                <div id="popUp" style="display: none;">
+                    <p>NIM 162012433021 Selamat Anda dinyatakan Lolos pada Divisi Controller, Silakan Menunggu Informasi Terkait Pelaksanaan Magang</p>
+                  </div>
+
+                <div id="hasil"></div>
+
+                <button id="hehe"  style="display: none;">Join Grup Magang</button>
+                  
+
+            </div>
+            
+            <!-- <div class="sub-judul">
+                <img src="ig.png" id="ig">
+                <img src="wa.png" id="wa">
+                <img src="tiktok.png" id="tiktok">
+            </div> -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
